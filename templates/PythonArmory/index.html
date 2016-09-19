@@ -1,0 +1,12 @@
+{% extends 'layouts/masterLayout.html' %}
+
+{% block title %} Python Test Page {% endblock %}
+
+{% block content %}
+
+    {% for armorys in data %}
+        <h1>{{ armorys.id }} </h1>
+        <h1>{{ myString }} </h1>
+    {% endfor %}
+
+{% endblock %}

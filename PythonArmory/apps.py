@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class PythonarmoryConfig(AppConfig):
+class PythonArmoryConfig(AppConfig):
     name = 'PythonArmory'
